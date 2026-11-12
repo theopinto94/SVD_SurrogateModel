@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+TwoStage_Image_Reconstruction/denoiser/__pycache__/
+TwoStage_Image_Reconstruction/denoiser/data_loader/__pycache__/
+TwoStage_Image_Reconstruction/denoiser/models/__pycache__/
+TwoStage_Image_Reconstruction/despeckler/__pycache__/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+
+# Virtual environments
+.venv/
+venv/
+env/
+.vscode/
+
+# Dont include dev files
+2_*.py
+.DS_Store
